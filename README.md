@@ -9,7 +9,7 @@ El proyecto se centra en reducir la incidencia de trastornos de sueño entre la 
 ## Recursos
 
 - **Datos**: Se cuenta con un dataset que incluye información sobre la población, como la duración y calidad del sueño, niveles de actividad física, estrés, entre otros.
-- **Tecnologías**: Para el modelado se utilizará RapidMiner, y para el análisis de los resultados se empleará Python.
+- **Tecnologías**: Para el modelado y analisis de dato se utilizaron RapidMiner y Jupyter.
 
 ## Objetivos de Minería de Datos
 Utilizando información histórica sobre diferentes personas y su estado de salud con trastornos del sueño, el objetivo es:
