@@ -19,7 +19,7 @@ class InputData(BaseModel):
     dailySteps: float
 
 
-model = joblib.load("Model.pkl")
+model = joblib.load("LR-Model.pkl")
 
 app = FastAPI()
 
@@ -30,4 +30,9 @@ def predit(data: InputData):
     scaled_input = scaler.fit_transform(input_values)
     prediction = model.predict(scaled_input)[0]
     prediction_result = float(prediction)
-    return {"Prediction": prediction_result}
+    if prediction_result == 0:
+        return{"You don't have any sleep disorder"}
+    elif prediction_result == 1:
+        return{"You may be suffering from a sleep disorder, please talk to your primary care physician."}
+    else:
+        return{"There has been an error in the prediction."}
