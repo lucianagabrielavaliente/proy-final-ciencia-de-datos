@@ -26,9 +26,7 @@ app = FastAPI()
 @app.post("/predict/")
 def predit(data: InputData):
     input_values = np.array([data.bloodPressureMax, data.bloodPressureMin, data.gender, data.age, data.occupation, data.sleepDuration, data.qualityOfSleep, data.physicalActivityLevel, data.stressLevel, data.bmi, data.heartRate, data.dailySteps], dtype=float).reshape(1, -1)
-    scaler = StandardScaler()
-    scaled_input = scaler.fit_transform(input_values)
-    prediction = model.predict(scaled_input)[0]
+    prediction = model.predict(input_values)[0]
     prediction_result = float(prediction)
     if prediction_result == 0:
         return{"You don't have any sleep disorder"}
