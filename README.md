@@ -55,31 +55,31 @@ Este repositorio contiene los datasets utilizados en nuestro estudio
 3. **Dataset Limpio**:
    - El tercer dataset es una versión depurada y procesada. Hemos realizado limpieza de datos, manejo de valores faltantes y otras transformaciones para garantizar la calidad y coherencia de los datos.
   
-# Ejecución del Proyecto
+## Ejecución del Proyecto
 
-## Clonar el repositorio de forma local
+### Clonar el repositorio de forma local
 git clone https://github.com/lucianagabrielavaliente/proy-final-ciencia-de-datos.git
 
-### Configuración del Entorno Virtual (Python)
+## Configuración del Entorno Virtual (Python)
 
-Para gestionar las dependencias del proyecto de manera aislada, se recomienda crear un entorno virtual de Python. Utiliza los siguientes comandos en tu terminal:
+Para gestionar las dependencias del proyecto de manera aislada, se recomienda crear un entorno virtual de Python. Utiliza los siguientes comandos en tu terminal
 
-# Crear el entorno virtual
+### Crear el entorno virtual
 
 python -m venv pyenv
 
-# Activar el entorno virtual (en Windows)
+### Activar el entorno virtual (en Windows)
 
 pyenv\Scripts\activate
 
-# Activar el entorno virtual (en macOS/Linux)
+### Activar el entorno virtual (en macOS/Linux)
 
 source pyenv/bin/activate
 
-# Instaalación de dependencias
+### Instaalación de dependencias
 
 pip install -r requirements.txt
 
-# Ejecución de la API
+### Ejecución de la API
 
 uvicorn app:app --reload
