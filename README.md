@@ -55,9 +55,9 @@ Este repositorio contiene los datasets utilizados en nuestro estudio
 3. **Dataset Limpio**:
    - El tercer dataset es una versión depurada y procesada. Hemos realizado limpieza de datos, manejo de valores faltantes y otras transformaciones para garantizar la calidad y coherencia de los datos.
   
-## Ejecución del Proyecto
+# Ejecución del Proyecto
 
-# Clonar el repositorio de forma local
+## Clonar el repositorio de forma local
 
 git clone https://github.com/lucianagabrielavaliente/proy-final-ciencia-de-datos.git
 
