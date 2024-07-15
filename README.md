@@ -58,7 +58,9 @@ Este repositorio contiene los datasets utilizados en nuestro estudio
 ## Ejecución del Proyecto
 
 ### Clonar el repositorio de forma local
-git clone https://github.com/lucianagabrielavaliente/proy-final-ciencia-de-datos.git
+git clone https://github.com/lucianagabrielavaliente/proy-final-ciencia-de-datos.git 
+
+Nos movemos a la carpeta contenedora del proyecto.
 
 ## Configuración del Entorno Virtual (Python)
 
